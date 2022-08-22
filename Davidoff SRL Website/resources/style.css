@@ -61,12 +61,9 @@ body {
     text-shadow: 1px 1px 10px #A48111;
 }
 
-#wrapper-bg video {
-    position: absolute;
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
+#wrapper-bg {
+    background-image: url("./images/lossantosbg.jpg");
+    background-size: cover;
 }
 
 #front-banner {
